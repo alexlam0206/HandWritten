@@ -148,8 +148,11 @@ export default function Home() {
           <Text sx={{ color: 'muted', fontWeight: 'bold', fontSize: [1, 2], display: 'block', mb: 1 }}>
             A <Link href="https://hackclub.com" target="_blank" sx={{ color: 'muted', textDecoration: 'underline', '&:hover': { color: 'accent' } }}>Hack Club</Link> YSWS.
           </Text>
-          <Text sx={{ color: 'muted', fontSize: 0 }}>
+          <Text sx={{ color: 'muted', fontSize: 0, display: 'block', mb: 1 }}>
             Site built by <Link href="https://nok.is-a.dev/" target="_blank" sx={{ color: 'muted', textDecoration: 'underline', '&:hover': { color: 'accent' } }}>Alex Lam</Link>
+          </Text>
+          <Text sx={{ color: 'muted', fontSize: 0 }}>
+            Envelope interaction adapted from <Link href="https://github.com/Hasnain-Mahmood009/Envelope-Letter-HTML-CSS" target="_blank" sx={{ color: 'muted', textDecoration: 'underline', '&:hover': { color: 'accent' } }}>Hasnain Mahmood</Link>
           </Text>
         </Box>
       </Container>
