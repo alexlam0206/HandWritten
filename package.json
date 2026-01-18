@@ -1,0 +1,36 @@
+{
+  "name": "handwritten",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "deploy": "npm run build && npx wrangler pages deploy out --project-name=handwritten"
+  },
+  "keywords": [],
+  "author": "Hack Club",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@hackclub/icons": "^0.0.15",
+    "@hackclub/theme": "^0.3.3",
+    "@theme-ui/presets": "^0.17.4",
+    "lucide-react": "^0.562.0",
+    "next": "^15.1.0",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "theme-ui": "^0.17.4"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.9",
+    "@types/react": "^19.2.8",
+    "@types/react-dom": "^19.2.3",
+    "eslint": "^9.39.2",
+    "eslint-config-next": "^16.1.3",
+    "typescript": "^5.9.3"
+  }
+}
